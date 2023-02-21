@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Rève Project AP " company="Entreprise" webLink="" view-date="2022-09-20" view-index="0" gantt-divider-location="737" resource-divider-location="300" version="2.8.11" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="502" order="0"/>
+        <field id="tpd4" name="Date de début" width="94" order="1"/>
+        <field id="tpd5" name="Date de fin" width="82" order="2"/>
+        <field id="tpd6" name="Durée" width="55" order="3"/>
+        <option id="color.recent"><![CDATA[#ffff00 #ff0033 #00ffff #000000 #33ffff #0000ff #ff9933 #ff0000 #ffffff #99ffff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="fr.saint-martin">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="0" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[1er janvier]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[1er mai]]></date>
+        <date year="" month="5" date="8" type="HOLIDAY"><![CDATA[8 mai]]></date>
+        <date year="" month="5" date="28" type="HOLIDAY"><![CDATA[Abolition de l'esclavage]]></date>
+        <date year="" month="7" date="14" type="HOLIDAY"><![CDATA[14 juillet]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assomption]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[Toussaint]]></date>
+        <date year="" month="11" date="11" type="HOLIDAY"><![CDATA[11 novembre]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Jour de Noël]]></date>
+        <date year="2015" month="4" date="6" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2015" month="5" date="14" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2015" month="5" date="25" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2016" month="3" date="28" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2016" month="5" date="5" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2016" month="5" date="16" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2017" month="4" date="17" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2017" month="5" date="25" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2017" month="6" date="5" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2018" month="4" date="2" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2018" month="5" date="10" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2018" month="5" date="21" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2019" month="4" date="22" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2019" month="5" date="30" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2019" month="6" date="10" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2020" month="4" date="13" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2020" month="5" date="21" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2020" month="6" date="1" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2021" month="4" date="5" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2021" month="5" date="13" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2021" month="5" date="24" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2022" month="4" date="18" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2022" month="5" date="26" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2022" month="6" date="6" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2023" month="4" date="10" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2023" month="5" date="18" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2023" month="5" date="29" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2024" month="4" date="1" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2024" month="5" date="9" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2024" month="5" date="20" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+        <date year="2025" month="4" date="21" type="HOLIDAY"><![CDATA[Lundi de Pâques]]></date>
+        <date year="2025" month="5" date="29" type="HOLIDAY"><![CDATA[Ascension]]></date>
+        <date year="2025" month="6" date="9" type="HOLIDAY"><![CDATA[Lundi de Pentecôte]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="6" name="M1-Présentation des propositions professionnelles" color="#00ffff" meeting="false" start="2022-10-11" duration="3" complete="0" thirdDate="2022-10-11" thirdDate-constraint="1" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="0" name="M1-Choix de 3 solutions de STA" color="#00ffff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-10-18" thirdDate-constraint="1" expand="true"/>
+        <task id="1" name="M1-Etude des outils logiciels pour STA" color="#00ffff" meeting="false" start="2022-11-08" duration="1" complete="0" thirdDate="2022-11-08" thirdDate-constraint="1" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="M1-Eléments de configuration et de paramétrage" color="#00ffff" meeting="false" start="2022-11-15" duration="1" complete="0" thirdDate="2022-10-18" thirdDate-constraint="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="M1-Rédaction procédure d'installation STA" color="#00ffff" meeting="false" start="2022-11-22" duration="1" complete="0" thirdDate="2022-10-18" thirdDate-constraint="1" expand="false"/>
+        <task id="4" name="M2-Cherche imprimante professionnelles_Laser couleur" color="#000000" meeting="false" start="2022-10-11" duration="1" complete="0" thirdDate="2022-10-18" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="M2-Cherche imprimante professionnelles_jet d’encre couleur" color="#000000" meeting="false" start="2022-10-11" duration="1" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="M2-Maquette du formulaire de saisie d’un consommable" color="#000000" meeting="false" start="2022-10-18" duration="3" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="M2-Maquette du formulaire de saisie d’une imprimante" color="#000000" meeting="false" start="2022-11-15" duration="2" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="M2-Création des 2 formulaires conçus (EXCEL)" color="#000000" meeting="false" start="2022-11-29" duration="2" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="M3-Définir le plan de sauvegarde et de restauration" color="#ff0033" meeting="false" start="2022-10-04" duration="1" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="M3-Définir les dispositifs SAN et NAS" color="#ff0033" meeting="false" start="2022-10-11" duration="1" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="M3-Définir les caractéristiques techniques et son coût" color="#ff0033" meeting="false" start="2022-10-18" duration="1" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="M3-Création du plan de sauvegarde hebdomadaire" color="#ff0033" meeting="false" start="2022-10-25" duration="1" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="M4-Réalisation du diaporama sous PowerPoint" color="#ff0033" meeting="false" start="2022-11-08" duration="4" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="M4-Réalisation charte informatique adaptée à l’entreprise" color="#00ffff" meeting="false" start="2022-11-22" duration="3" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="M5-Réalisation diagramme de GanttProject" color="#000000" meeting="false" start="2022-10-04" duration="9" complete="0" thirdDate="2022-10-04" thirdDate-constraint="0" expand="false"/>
+        <task id="19" name="Compte rendu" color="#ffff00" meeting="false" start="2022-11-29" duration="2" complete="0" thirdDate="2022-09-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Dahan_Aaron" function="1" contacts="" phone=""/>
+        <resource id="1" name="Berne_Paul" function="2" contacts="" phone=""/>
+        <resource id="2" name="Gonnet_Yorik" function="3" contacts="" phone=""/>
+        <resource id="3" name="Aaron DAHAN" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="7" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="EDITEUR1"/>
+        <role id="2" name="EDITEUR2"/>
+        <role id="3" name="EDITEUR3"/>
+    </roles>
+</project>

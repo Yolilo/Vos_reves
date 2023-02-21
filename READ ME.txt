@@ -1,0 +1,5 @@
+Logiciels utilisés lors de ce projet :
+Word
+Powerpoint
+Excel
+GanttProject
